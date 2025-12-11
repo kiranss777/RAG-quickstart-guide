@@ -63,7 +63,7 @@ By completing this material, you will be able to:
 - Key insights and best practices
 - **Format:** Script provided for recording
 - Show-and-Tell Video: https://youtu.be/aAwPU3ZIXmo
-- Detailed Explanantion of RAG: [link]
+- Detailed Explanantion of RAG: https://youtu.be/2MGHdHTP-yc
 
 ### 4. **Pedagogical Report** (pedagogical report.pdf)
 
