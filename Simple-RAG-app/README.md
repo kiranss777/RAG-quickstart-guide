@@ -10,6 +10,24 @@ A simple Retrieval-Augmented Generation (RAG) application that ingests PDF docum
 - `vector_store.py` - Pinecone index management and query
 - `llm_chain.py` - LLM wrapper (uses `openai.OpenAI` pointing to DeepSeek)
 
+## 🛠️ Technical Stack
+
+| Component        | Technology                               | Purpose                          |
+| ---------------- | ---------------------------------------- | -------------------------------- |
+| **Embeddings**   | `sentence-transformers/all-MiniLM-L6-v2` | 384-dim semantic vectors         |
+| **Vector DB**    | Pinecone                                 | Managed vector storage & search  |
+| **LLM**          | DeepSeek                                 | Cost-effective answer generation |
+| **Tokenization** | NLTK                                     | Sentence splitting for chunking  |
+| **Development**  | Jupyter, Python 3.8+                     | Interactive implementation       |
+
+**Why these choices?**
+
+- **Open-source embeddings** for transparency and cost control
+- **Pinecone** for production-ready managed vector search
+- **DeepSeek** for affordable, high-quality generation
+- **No frameworks** (LangChain/LlamaIndex) to maximize learning
+
+
 ## Requirements
 
 Install dependencies from `requirements.txt`:
