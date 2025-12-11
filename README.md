@@ -40,9 +40,8 @@ By completing this material, you will be able to:
 - Retrieval techniques and prompt engineering
 - 5 progressive practice exercises with solutions
 - Common pitfalls and debugging guide
-- **Format:** HTML (A4-optimized for PDF export)
 
-### 2. **Implementation Notebook** (Jupyter/Python)
+### 2. **Implementation Notebook** (RAG-quickstart)
 
 - Complete working RAG system from scratch
 - Comparative analysis of 5 chunking methods:
@@ -52,18 +51,21 @@ By completing this material, you will be able to:
   - Recursive chunking
   - Semantic chunking
 - Embedding generation with `all-MiniLM-L6-v2`
+- Visualizing embeddings in vector space
 - Vector storage in Pinecone
 - Answer generation with DeepSeek LLM
-- **Format:** `.ipynb` or `.py` (via jupytext)
+- **Format:** `.ipynb`
 
-### 3. **Video Walkthrough** (5 minutes)
+### 3. **Video Walkthrough**
 
 - Explain → Show → Try pedagogical structure
 - Live demonstration of the RAG pipeline
 - Key insights and best practices
 - **Format:** Script provided for recording
+- Show-and-Tell Video: [link]
+- Detailed Explanantion of RAG: [link]
 
-### 4. **Pedagogical Report** (10 pages)
+### 4. **Pedagogical Report** (pedagogical report.pdf)
 
 - Teaching philosophy and target audience analysis
 - Technical deep dive with course theme connections
@@ -71,103 +73,22 @@ By completing this material, you will be able to:
 - Assessment strategies and learning accommodations
 - **Format:** HTML (A4-optimized for PDF export)
 
-### 5. **Assessment Quiz** (20 questions)
+### 5. **Assessment Quiz** (RAG-Quiz.pdf)
 
 - Mixed difficulty MCQ covering all concepts
 - Detailed explanations for each answer
 - Self-assessment scoring guide
 - **Format:** Interactive HTML
 
+### 6. **Simple RAG App** (Simple-RAG-app)
+
+- Guide + complete code to build your own RAG application
+- LLM: DeepSeek
+- Vector Database: Pinecone
+
 ---
 
 ## 🚀 Quick Start
-
-### Prerequisites
-
-```bash
-Python 3.8+
-Jupyter Notebook or JupyterLab
-API keys: Pinecone, DeepSeek (or OpenAI-compatible LLM)
-```
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/rag-educational-package.git
-cd rag-educational-package
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
-```
-
-### Run the Notebook
-
-```bash
-jupyter notebook rag_implementation.ipynb
-```
-
-Or use jupytext for synced .py files:
-
-```bash
-jupytext --to ipynb rag_implementation.py
-```
-
----
-
-## 📂 Project Structure
-
-```
-rag-educational-package/
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── .env.example                       # Template for API keys
-│
-├── tutorial/
-│   └── rag_tutorial.html             # 25+ page comprehensive tutorial
-│
-├── notebook/
-│   ├── rag_implementation.ipynb      # Main Jupyter notebook
-│   └── rag_implementation.py         # Python version (jupytext)
-│
-├── video/
-│   └── walkthrough_script.md         # 5-minute video script
-│
-├── assessment/
-│   ├── quiz.html                     # 20-question MCQ quiz
-│   └── exercises.md                  # 5 practice exercises
-│
-├── report/
-│   └── pedagogical_report.html       # 10-page teaching analysis
-│
-└── data/
-    └── sample_documents/              # Example documents for testing
-```
-
----
-
-## 🛠️ Technical Stack
-
-| Component        | Technology                               | Purpose                          |
-| ---------------- | ---------------------------------------- | -------------------------------- |
-| **Embeddings**   | `sentence-transformers/all-MiniLM-L6-v2` | 384-dim semantic vectors         |
-| **Vector DB**    | Pinecone                                 | Managed vector storage & search  |
-| **LLM**          | DeepSeek                                 | Cost-effective answer generation |
-| **Tokenization** | NLTK                                     | Sentence splitting for chunking  |
-| **Development**  | Jupyter, Python 3.8+                     | Interactive implementation       |
-
-**Why these choices?**
-
-- **Open-source embeddings** for transparency and cost control
-- **Pinecone** for production-ready managed vector search
-- **DeepSeek** for affordable, high-quality generation
-- **No frameworks** (LangChain/LlamaIndex) to maximize learning
-
----
 
 ## 📖 Key Concepts Covered
 
