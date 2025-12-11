@@ -62,7 +62,7 @@ By completing this material, you will be able to:
 - Live demonstration of the RAG pipeline
 - Key insights and best practices
 - **Format:** Script provided for recording
-- Show-and-Tell Video: [link]
+- Show-and-Tell Video: https://youtu.be/aAwPU3ZIXmo
 - Detailed Explanantion of RAG: [link]
 
 ### 4. **Pedagogical Report** (pedagogical report.pdf)
